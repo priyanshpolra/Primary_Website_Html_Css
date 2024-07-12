@@ -1,0 +1,278 @@
+.attraction-idea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding-left: 90px;
+  padding-right: 100px; 
+  background-color: white;
+}
+
+.minimal-design {
+  margin-top: 25px;
+  margin-right: 3px;
+} 
+
+.attraction-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100px;
+  margin-left: 37%;
+}
+
+.attraction-name {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.attraction-motive {
+text-align: center;
+font-size: 15px ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.recent-text {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.text-slogan {
+  text-align: center;
+  font-size: 20px ;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  margin-top: -14px;
+  margin-bottom: 60px;
+}
+
+.recent {
+  background-color: rgb(203, 203, 203);
+  height: 1200px;
+}
+
+.Recent-Work{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  font-family: Roboto, Arial;
+  margin-left: 120px;
+  margin-right: 70px;
+  row-gap: 40px;
+}
+
+.work-content {
+  height: 80%;
+  width: 80%;
+}
+
+.work-content:hover {
+  opacity: .6;
+}
+
+.work-thumbnail {
+  background-color: white;
+  padding-bottom: 2px;
+}
+
+.image-thumbnail {
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+}
+.work-info {
+  background-color: white;
+  text-align: center;
+}
+
+.drawing-info {
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+
+.load-button{
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 29px;
+  width: 100%;
+  padding: 7px 10px;
+  margin-left: 125%;
+  white-space:nowrap;
+  cursor: pointer;
+}
+
+.portfolio-button {
+  display: flex;
+}
+
+.webside-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url('background.jpeg');
+  padding: 80px 300px;
+  }
+
+.review-logos {
+  height: 58px;
+}
+
+.review-class {
+  font-size: 25px;
+  text-align: center;
+}
+
+.services {
+  background-color: rgb(255, 255, 255);
+}
+
+.service-main {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.core-main{
+  text-align: center;
+  font-size: 17px;
+  margin-top: -10px;
+}
+
+.feature-service {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  margin: 0 120px;
+}
+
+.main-service {
+  display: grid;
+  grid-template-columns:60px 1fr;
+}
+
+.feature-logo {
+  height: 50px;
+}
+
+.feature-name {
+  font-size: 25px;
+}
+
+.testimonials {
+  background-color: rgb(204, 204, 204);
+  padding-bottom: 40px;
+}
+
+.test-name {
+  padding-top: 200px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.test-cust {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+.people-reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 80px;
+}
+
+.people-overview {
+  display: grid;
+  grid-template-columns:  70px 1fr;
+  column-gap: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 30px;
+}
+
+.people-thing {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.people-info {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+}
+
+.people-image {
+  height: 68px;
+  border-radius: 34px;
+}
+
+.people-name {
+  font-size: 24px;
+}
+
+.people-review {
+  font-size:17px;
+}
+
+.blog {
+  padding: 0 100px;
+}
+
+.blog-main {
+  margin-top: 150px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.blog-slogan {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.blog-overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-arounds;
+}
+
+.blog-image {
+  height: 250px;
+  transition: 0.2s;
+}
+
+.blog-image:hover{
+  opacity: 0.8;
+}
+
+.blog-title {
+  font-size: 22px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.blog-title:hover {
+  color: rgb(255, 81, 0);
+  cursor: pointer;
+}
+
+.blog-info{
+  font-size: 14px;
+  margin-top: -25px;
+  text-align: center;
+}
+
+

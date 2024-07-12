@@ -1,0 +1,136 @@
+.end-section {
+  margin-top: 50px;
+  background-color: lightgray;
+  padding: 0 70px;
+  padding-bottom: 40px;
+}
+
+.social-handles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-logo {
+  height: 60px;
+  padding: 10px 60px;
+}
+
+.facebook {
+  background-color: transparent;
+  margin-right: -5px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.facebook:hover {
+  background-color: #337ab7;
+}
+
+.Twitter {
+  background-color: transparent;
+  margin-right: -5px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.Twitter:hover {
+  background-color: rgb(0, 204, 255);
+}
+
+.Google {
+  background-color: transparent;
+  margin-right: -5px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.Google:hover {
+  background-color: lightsalmon;
+}
+
+.dribble {
+  background-color: transparent;
+  margin-right: -5px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.dribble:hover {
+  background-color: lightpink;
+}
+
+.linkdin {
+  background-color: transparent;
+  margin-right: -5px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.linkdin:hover {
+  background-color: aqua;
+}
+
+.primary-website {
+  background-color: transparent;
+  margin-right: -5px;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.primary-website:hover {
+  background-color: orange;
+}
+
+.info-grids {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.primary-grid {
+  margin-right: 50px;
+}
+
+.contact-grid {
+  margin-top: -30px;
+}
+
+.Get-in-Touch {
+  font-size: 30px;
+}
+
+.company-contact {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.categories-info {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.item-image {
+  height: 30px;
+}
+
+.Categories {
+  font-size: 30px;
+  margin-top: -2px;
+}
+
+.Flickr-Photos {
+  font-size: 30px;
+  margin-top: -1px;  
+}
+
+.copyrights-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.copyrights-info:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
